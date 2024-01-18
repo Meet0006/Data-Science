@@ -11,10 +11,10 @@ import requests
 api = requests.get('https://isro.vercel.app/api/spacecrafts')
 response = api.json()
 
-# print(len(response.keys()))
-#
+print(len(response.keys()))
+
 print(response.keys())
-#
-# print(response['spacecrafts'][0]['name'])
-# 
-# print(len(response['spacecrafts']))
+
+print(response['spacecrafts'][0]['name'])
+
+print(len(response['spacecrafts']))

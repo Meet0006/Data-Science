@@ -15,11 +15,10 @@ mydata5 = {
 # Question 3 : print 100
 
 # Question 1 : print 2lacs
-# print(mydata5["category"][0]["package"]["data"])
+print(mydata5["category"][0]["package"]["data"])
 
 # Question 2 : print 25
-# print(mydata5["category"][2]["Tests"][2])
+print(mydata5["category"][2]["Tests"][2])
 
 # Question 3 : print 100
-# print(mydata5["category"][1]["data"]["new"][0])
-
+print(mydata5["category"][1]["data"]["new"][0])

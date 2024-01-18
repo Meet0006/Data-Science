@@ -6,5 +6,3 @@ url = requests.get('https://jsonplaceholder.typicode.com/comments')
 print(type(url))
 response = url.json()
 print(response[0]['email'])
-
-

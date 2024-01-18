@@ -15,13 +15,12 @@ dataSet = {
         },
     ]
 }
-# print(dataSet["Branch"].values())
-# print(dataSet)
-# print(type(dataSet))
-# print(dataSet["Age"])
-# print(dataSet["Branch"])
-# print(dataSet["Branch"]["3"])
-# print(dataSet["CE_Branch"][0])
-# print(dataSet['CE_Branch'][0]["Enroll2"])
-# print(len(dataSet)) // Total number of keys // Output : 4
-
+print(dataSet["Branch"].values())
+print(dataSet)
+print(type(dataSet))
+print(dataSet["Age"])
+print(dataSet["Branch"])
+print(dataSet["Branch"]["3"])
+print(dataSet["CE_Branch"][0])
+print(dataSet['CE_Branch'][0]["Enroll2"])
+print(len(dataSet))  # // Total number of keys // Output : 4
