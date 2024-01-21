@@ -57,11 +57,11 @@ print(len(response[0]))
 print(len(response))
 
 # 3)
-country = input("Name of country: ")
-for i in response:
-    if i['country'] == country:
-        print(len(response))
-        break
-    else:
-        print('Country not found.')
-        break
+api = 'http://universities.hipolabs.com/search?country=' + input()
+response = requests.get(api)
+MainResponse = response.json()
+output = len(MainResponse)
+if output == 0:
+    print("Country doesn't exist")
+else:
+    print(output)
