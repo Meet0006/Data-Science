@@ -34,9 +34,9 @@ scoreData = []
 for j in int_str:
     if re.match('[3-4][0-9][0-9]|5[0-4][0-9]', j):  # 300 549
         scoreData.append('Poor')
-    elif re.match('5[5-9][0-9]|6[0-4][0-9]', j):  # 550 650
+    elif re.match('5[5-9][0-9]|6[0-4][0-9]', j):  # 550 649
         scoreData.append('Average')
-    elif re.match('6[5-9][0-9]|7[0-4][0-9]', j):  # 650 750
+    elif re.match('6[5-9][0-9]|7[0-4][0-9]', j):  # 650 749
         scoreData.append('Good')
     elif re.match('7[5-9][0-9]|8[0-9][0-9]|900', j):  # 750 900
         scoreData.append('Excellent')

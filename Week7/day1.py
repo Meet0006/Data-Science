@@ -18,8 +18,8 @@ print(match_char)
 
 # Match if string starts with one or more occurrence of a
 # For example string ab valid, string aaaab valid, string ba not valid
-match_char = re.findall("^[a+]", string1) # Method 1
-match_char = re.match("a+", string1) # Method 2
+match_char = re.findall("^[a+]", string1)  # Method 1
+match_char = re.match("a+", string1)  # Method 2
 print(match_char)
 
 # Match if string starts with zero or more occurrence of a
@@ -66,7 +66,7 @@ print(re.match('[^a]', string1))
 print(re.match('[^(hello)]', string1))
 
 # first character must not be a or b
-print(re.match('[^ab]',string1))
+print(re.match('[^ab]', string1))
 
 # String starts with word "you" valid
 print(re.match('\Ayou', string1))
