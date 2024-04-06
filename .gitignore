@@ -1,0 +1,7 @@
+.idea/
+*.csv
+*.xlsx
+Side_Project/
+Streamlit/
+PracticeWork.py
+*.keras
